@@ -6,5 +6,10 @@ public class App {
         Scanner tangenbord = new Scanner(System.in);
 
         int födelse_datum = tangenbord.nextInt();
+
+        System.out.println("Ange 4 sista");
+        int fyra_sista = tangenbord.nextInt();
+        
+        System.out.println("Ditt persnummer är: "+födelse_datum+":"+fyra_sista);
     }
 }
